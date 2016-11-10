@@ -1,0 +1,105 @@
+<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Welcome to the242</title>
+    <!-- Bootstrap -->
+    <link href="css/bootstrap_read.min.css" rel="stylesheet">
+    <!-- <link href="css/bootstrap.min.css" rel="stylesheet"> -->
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+    <link rel="shortcut icon" href="favicon.png">
+    
+ 
+    
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <style type="text/css">
+      #map-canvas { height: 400px; margin: 0; padding: 0;}
+    </style>
+
+  </head>
+  <body>
+<hr>
+<img src="fZbgn6A.gif" height="40px" alt="search">
+
+<ul class="list-group">
+  <li class="list-group-item list-group-item-warning">
+    <div id="divone" class="panel panel-default">
+      <div class="panel-heading">
+        <h3 class="panel-title">User All Listings -  Search searching for a person or busness.</h3>
+      </div>
+      <div class="panel-body">
+        <p>
+          When searching for a person under All Listings, enter their last name first.  You can also enter characters until the Drop Down Suggestion Box guesses your entry.  For example, if searching for John Smith, you can enter “smith jo”, and the website will have four suggestions for your search.
+
+          When you have found the person you are searching for, you can click on their name.  This will take you to the Quick Access page which contains phone number and location.  If you click on their name again, you will reach the Full Details page.  This page can contain phone number, email, full address, and photo, depending on what that member has entered on their profile.
+
+          When searching for a business under All Listings, simply enter the name of the business.  You can abbreviate your search as well.  For example, if you are searching for Mike’s Mobile &amp; Accessories, you can type “Mike mo ac”, and the website will offer suggestions.  
+
+          When you have found the business you are searching for, you can click on their name.  This will bring you to the Quick Access Page.  If they have more than one location, then you can use the Island Carousel to filter the locations to those on your Island.  You can also click the Map All button to find the location nearest to you.  After filtering the business, you can then click on that location and view their personal website, hours, contact information, business description, photos, and products. 
+        </p>  
+      </div>
+      <div class="panel-footer">
+        <video controls style="width:400px" poster="" class="center-block">
+          <source src="Smalltest.mp4" 
+                  type='video/mp4;codecs="avc1.42E01E, mp4a.40.2"' />
+        </video>        
+      </div>
+    </div>
+  </li>
+</ul>
+
+
+<video controls style="width:800px;height:360px;" poster="">
+  <source src="Smalltest.mp4" 
+          type='video/mp4;codecs="avc1.42E01E, mp4a.40.2"' />
+</video>
+<hr>
+
+</body>
+
+
+<script src="jquery/jquery-1.11.1.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/handlebars-v2.0.0.js"></script>
+<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBItoIRNxRj7XM7k5GG6QBVPX6-1XVUdjw"></script>
+<script src="js/modules/thirdPartyScripts.js"></script>
+
+<script>
+    $('div#resumeX').on('click', 'a[data-element="btnAddEducation"]',function(evt){
+      var add_html = '<dl><dt contenteditable>School</dt><dd contenteditable>Achievements</dd></dl>'
+      evt.preventDefault();
+      $('div#' + $(this).attr('data-div')).append(add_html)
+      //$(this).attr('data-div')
+      console.log(this);
+    });
+
+    $('div#resumeX').on('click', 'a[data-element="btnRemoveEducation"]',function(evt){
+      $('div#' + $(this).attr('data-div')).children('dl').last().remove();
+      //$(this).attr('data-div')
+      console.log(this);
+    });    
+
+</script>
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBItoIRNxRj7XM7k5GG6QBVPX6-1XVUdjw">
+    </script>
+    <script type="text/javascript">
+      function initialize() {
+        var mapOptions = {
+          center: { lat: -34.397, lng: 150.644},
+          zoom: 8
+        };
+        var map = new google.maps.Map(document.getElementById('map-canvas'),
+            mapOptions);
+      }
+      google.maps.event.addDomListener(window, 'load', initialize);
+    </script>
+
+</body>
+</html>

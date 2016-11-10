@@ -1,0 +1,453 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"if",
+				"ife	if … else"
+			],
+			[
+				"do",
+				"documentElement"
+			],
+			[
+				"di",
+				"display"
+			],
+			[
+				"mar",
+				"margin-bottom"
+			],
+			[
+				"bg",
+				"bg_inner"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"Vis",
+				"visiting_professors"
+			],
+			[
+				"re",
+				"reception"
+			],
+			[
+				"se",
+				"section"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 375.0,
+		"selected_items":
+		[
+			[
+				"p",
+				"Package Control: Enable Package"
+			],
+			[
+				"pac",
+				"Package Control: Enable Package"
+			],
+			[
+				"pack",
+				"Package Control: List Packages"
+			],
+			[
+				"browser",
+				"File: Open In Browser - Production Server"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"syn:css",
+				"Set Syntax: CSS"
+			],
+			[
+				"syntax:h",
+				"Set Syntax: HTML"
+			],
+			[
+				"syn",
+				"Set Syntax: HTML"
+			],
+			[
+				"jQ",
+				"Snippet: jQuery.each"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"snip",
+				"Snippet: Function"
+			],
+			[
+				"sny",
+				"Set Syntax: jQuery (JavaScript)"
+			],
+			[
+				"r",
+				"ReadmePlease"
+			],
+			[
+				"min",
+				"View: Toggle Minimap"
+			],
+			[
+				"mini",
+				"View: Toggle Minimap"
+			],
+			[
+				"pa",
+				"Package Control: Enable Package"
+			],
+			[
+				"rea",
+				"ReadmePlease"
+			],
+			[
+				"readme",
+				"ReadmePlease"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"re",
+				"ReadmePlease"
+			],
+			[
+				"lin",
+				"Line Ending: Windows"
+			],
+			[
+				"html",
+				"Set Syntax: HTML"
+			],
+			[
+				"plain",
+				"Set Syntax: Plain Text"
+			],
+			[
+				"sub",
+				"SublimeLinter: Show Error List"
+			],
+			[
+				"subl",
+				"SublimeLinter: Show Error List"
+			],
+			[
+				"sublim",
+				"SublimeLinter: Show Error List"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"read",
+				"ReadmePlease"
+			],
+			[
+				"Insta",
+				"Package Control: Install Package"
+			],
+			[
+				"Snippet: ",
+				"Snippet: Get Elements"
+			],
+			[
+				"js",
+				"Set Syntax: JavaScript"
+			]
+		],
+		"width": 561.0
+	},
+	"console":
+	{
+		"height": 211.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/devans/Sites/sandbox/bootstrap/index.html",
+		"/Users/devans/Sites/sandbox/bootstrap/css/bootstrap.css",
+		"/Users/devans/Desktop/Bootstrap 3 Exercise Files/Exercise Files/Chapter 3/03_04/03_04.html",
+		"/Users/devans/Library/Application Support/Sublime Text 2/Packages/SublimeXiki/README.markdown",
+		"/Users/devans/Desktop/Bootstrap 3 Exercise Files/Exercise Files/js/bootstrap.min.js",
+		"/Users/devans/Desktop/Bootstrap 3 Exercise Files/Exercise Files/js/jstext.js",
+		"/Users/devans/Desktop/Bootstrap 3 Exercise Files/Exercise Files/css/junk.html",
+		"/Users/devans/Desktop/Bootstrap 3 Exercise Files/Exercise Files/junk.css",
+		"/Users/devans/Desktop/Bootstrap 3 Exercise Files/Exercise Files/newdir/junk.css",
+		"/Users/devans/Desktop/Bootstrap 3 Exercise Files/Exercise Files/css/bootstrap.css",
+		"/Users/devans/Library/Application Support/Sublime Text 2/Packages/User/Default (OSX).sublime-keymap",
+		"/Users/devans/Library/Application Support/Sublime Text 2/Packages/Prefixr/Default (OSX).sublime-keymap",
+		"/Users/devans/Desktop/Bootstrap 3 Exercise Files/Exercise Files/js/bootstrap.js",
+		"/Users/devans/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/Users/devans/Library/Application Support/Sublime Text 2/Packages/Emmet/README.md",
+		"/Users/devans/Desktop/Bootstrap 3 Exercise Files/Exercise Files/Chapter 5/05_05/05_05.html",
+		"/Users/devans/Desktop/Bootstrap 3 Exercise Files/Exercise Files/Chapter 5/05_03/Final/05_03.html",
+		"/Users/devans/Library/Application Support/Sublime Text 2/Packages/Emmet/Emmet.sublime-settings",
+		"/Users/devans/Library/Application Support/Sublime Text 2/Packages/SideBarEnhancements/Side Bar.sublime-settings",
+		"/Users/devans/Desktop/Bootstrap 3 Exercise Files/Exercise Files/03_09.html",
+		"/Users/devans/Desktop/Bootstrap 3 Exercise Files/Exercise Files/Chapter 3/03_03/03_03.html",
+		"/Users/devans/Desktop/Bootstrap 3 Exercise Files/Exercise Files/Chapter 3/03_03/Final/03_03.html",
+		"/Users/devans/Library/Application Support/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
+		"/Users/devans/Library/Application Support/Sublime Text 2/Packages/Default/Default (OSX).sublime-keymap",
+		"/Users/devans/Desktop/Bootstrap 3 Exercise Files/Exercise Files/Chapter 3/03_01/Final/03_01.html",
+		"/Users/devans/Desktop/Bootstrap 3 Exercise Files/Exercise Files/Chapter 1/01_05/bootstrap/css/bootstrap.css",
+		"/Users/devans/Sites/templates/directories/development/js/jquery.js",
+		"/Users/devans/Sites/templates/files/bootstrap.starter.html",
+		"/Users/devans/Sites/templates/bootstrap.starter.html",
+		"/Users/devans/Sites/the242/bs_examples.html",
+		"/Users/devans/Sites/includes/phonebook.php",
+		"/Users/devans/Sites/the242/bootstrap/css/home_custom.css",
+		"/Users/devans/Sites/the242/index_old.html",
+		"/Users/devans/Sites/includes/phone_functions.php",
+		"/Users/devans/Sites/the242/index_new.html",
+		"/Users/devans/Sites/the242/phonebooksmtx.php",
+		"/Users/devans/Sites/includes/phone_fuctions.php",
+		"/Users/devans/Library/Application Support/Sublime Text 2/Packages/User/HTML.sublime-settings",
+		"/Users/devans/Sites/the242/bootstrap/js/jquery-1.10.2.min.js",
+		"/Library/WebServer/share/httpd/manual/bind.html",
+		"/Users/devans/Sites/the242/index.html",
+		"/Users/devans/Sites/the242/bootstrap/template.html",
+		"/Users/devans/Sites/ps_jquery/2-jquery-fundamentals-selectors-exercise-files/HTMLOnly/Default.html",
+		"/Users/devans/Sites/ps_jquery/1-jquery-fundamentals-intro-v2-exercise-files/jQueryIntro/jQueryPage.html",
+		"/Users/devans/Sites/ps_jquery/1-jquery-fundamentals-intro-v2-exercise-files/jQueryIntro/jquery.js",
+		"/Library/WebServer/Documents/phpinfo.php",
+		"/Users/devans/Desktop/dbTransfer/listwords.txt",
+		"/Users/devans/Desktop/ Exercise Files /roux1/index.htm",
+		"/Library/WebServer/Documents/index.html",
+		"/Applications/MAMP/htdocs/phpinfo.php",
+		"/Users/devans/Desktop/fill_help_tables-5.7 2.sql",
+		"/Users/devans/Library/Application Support/Sublime Text 2/Packages/User/LineEndings.sublime-settings",
+		"/Users/devans/Desktop/ Exercise Files /roux1/roux1.sublime-workspace",
+		"/Users/devans/Desktop/ Exercise Files /roux1/spotlight.htm",
+		"/Users/devans/Desktop/ Exercise Files /roux1/_fonts/Bitter OFL SIL Font License 1.1.txt",
+		"/Users/devans/Desktop/ Exercise Files /roux1/about/about.htm",
+		"/Users/devans/Desktop/ Exercise Files /roux1/admissions/request.htm",
+		"/Users/devans/Desktop/ Exercise Files /roux1/programs/graphic-design.htm",
+		"/Users/devans/Desktop/ Exercise Files /roux1/programs/programs.htm",
+		"/Users/devans/Desktop/ Exercise Files /roux1/error.htm",
+		"/Users/devans/Desktop/ Exercise Files /roux1/_scripts/SpryTabbedPanels.js",
+		"/Users/devans/Desktop/ Execise Files/roux1/index.htm",
+		"/Users/devans/Desktop/Exercise Files/roux1/_scripts/SpryTabbedPanels.js",
+		"/Users/devans/Desktop/Exercise Files/roux1/_css/main.css",
+		"/Users/devans/Library/Application Support/Sublime Text 2/Packages/User/Side Bar.sublime-settings",
+		"/Users/devans/Desktop/Exercise Files/roux1/index.htm",
+		"/Users/devans/Library/Application Support/Sublime Text 2/Packages/LineEndings/LineEndings.sublime-settings",
+		"/Users/devans/Desktop/Exercise Files/roux1/about/sftp-config.json",
+		"/Users/devans/Library/Application Support/Sublime Text 2/Packages/Emmet/Default (OSX).sublime-keymap",
+		"/Users/devans/Library/Application Support/Sublime Text 2/Packages/SideBarEnhancements/readme.md",
+		"/Users/devans/Library/Application Support/Sublime Text 2/Packages/SideBarEnhancements/messages/11.13.2012.1305.0.txt",
+		"/Users/devans/Desktop/Exercise Files/roux1/roux1-project.sublime-project",
+		"/Users/devans/Library/Application Support/Sublime Text 2/Packages/User/JSON.sublime-settings",
+		"/Users/devans/Desktop/Exercise Files/roux1/error.htm",
+		"/Users/devans/Desktop/Exercise Files/roux1/404.shtml",
+		"/Users/devans/Desktop/Exercise Files/roux1/about/about.htm",
+		"/Users/devans/Desktop/Exercise Files/roux1/_fonts/Bitter OFL SIL Font License 1.1.txt",
+		"/Users/devans/Desktop/Exercise Files/roux1/spotlight.htm",
+		"/Users/devans/Desktop/Exercise Files/roux1/admissions/request.htm",
+		"/Users/devans/Desktop/Exercise Files/roux1/programs/graphic-design.htm",
+		"/Users/devans/Desktop/Exercise Files/roux1/500.php",
+		"/Users/devans/Desktop/Exercise Files/roux1/400.shtml",
+		"/Users/devans/Desktop/Exercise Files/roux1/401.shtml"
+	],
+	"find":
+	{
+		"height": 43.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			"/Users/devans/Desktop/Bootstrap 3 Exercise Files/Exercise Files/Chapter 3",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"bulldog",
+			"header",
+			"head",
+			"each:",
+			"span",
+			"pull",
+			"pull-right",
+			"span",
+			"lorempixel.com/300/300/city",
+			"images/phonebook.png",
+			"=\"myaccordion\"",
+			"accordian",
+			"<hr",
+			"hr",
+			"\"=",
+			"class",
+			"next",
+			"tab1",
+			"href",
+			"span2",
+			"/300/300/",
+			"/400/400/",
+			"/200/200/",
+			"btn-muted",
+			"bnt",
+			"\"table table-striped table-bordered\"",
+			"class=\"table table-striped\"",
+			"class=\"table\"",
+			"table",
+			"row",
+			"script",
+			"header",
+			"rsquo",
+			"p",
+			"class=",
+			"id=",
+			"class",
+			"graduate",
+			"false",
+			"header"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": false,
+		"use_buffer2": false,
+		"whole_word": false,
+		"wrap": false
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 45.0
+	},
+	"input":
+	{
+		"height": 33.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 172.0
+	},
+	"output.sftp":
+	{
+		"height": 0.0
+	},
+	"replace":
+	{
+		"height": 82.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"05_03",
+				"Chapter 5/05_03/Final/05_03.html"
+			],
+			[
+				"i",
+				"/Users/devans/Desktop/ Exercise Files /roux1/index.htm"
+			],
+			[
+				"ind",
+				"/Users/devans/Desktop/ Exercise Files /roux1/index.htm"
+			],
+			[
+				"css",
+				"_css/main.css"
+			],
+			[
+				"main",
+				"_css/main.css"
+			],
+			[
+				"",
+				"untitled"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"",
+				"/Users/devans/Sites/sandbox/bootstrap/bootstrap.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 312.0,
+	"status_bar_visible": true
+}

@@ -1,0 +1,9 @@
+PoweredByMacOSX.gif
+PoweredByMacOSXLarge.gif
+.DS_Store
+images/
+videos/
+.buildpath
+.project
+.settings/
+.idea/workspace.xml

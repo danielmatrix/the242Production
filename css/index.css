@@ -1,0 +1,760 @@
+/* Needed for Windows 10 and Windows Phpne */
+@-webkit-viewport   { width: device-width; }
+@-moz-viewport      { width: device-width; }
+@-ms-viewport       { width: device-width; }
+@-o-viewport        { width: device-width; }
+@viewport           { width: device-width; }  
+
+body{
+  margin-top: 80px;}
+
+div#list-suggestions, div#ps-suggestions, 
+div#bp-suggestions, div#list-company, 
+div#list-location, div#ad, div#mapcanvas,
+div#login,div#signup,div#ps-company, 
+div.bp_company, div#manageListings,
+div#newPayOptionForm,div#BSdisplay-products, 
+div#catsub, div#seasonshopping, 
+div#resume, div#helpWantedList, 
+div#salesevents, div#for_rent, 
+div#classifieds, div#displayForRent, div#the242help, div#helpfullinks{
+  display: none;
+  margin-top: 15px;
+}
+
+div#displayClassifieds, div#displayForRent, div#sales{
+  margin-top: 15px;
+}
+
+div.search, div.island{
+    width:220px;}
+
+div.navbar-collapse .carousel{
+    height: 40px;
+    margin: 12.5px 10px 12.5px 0px;}
+
+
+div.navbar-collapse .carousel span {
+line-height: 40px;
+vertical-align: middle;}
+
+#btn_menu {
+  margin-left: 15px;
+  margin-top: 26.5px;
+}
+
+span.input-group-addon{
+  padding: 0;
+} 
+a#search_click, a#memberListSearch {
+  padding: 8px 12px;
+}
+
+div#list-company a.map{
+  cursor: default;
+  color: grey;
+  background-color: #fff;
+  border: 1px solid grey;
+}
+
+div#list-company a.map.btn-warning{
+  cursor: pointer;
+  border-color: #f0ad4e;  
+}
+
+h1.brand{
+  display: inline-block;
+  font-family: "Times New Roman";
+  font-weight: normal;
+  font-size: 4em;
+  vertical-align: bottom;
+}
+
+.jumbotron {
+  background-color: #fff;
+
+}
+div#ship {
+ background-image: url(images/ship.png); 
+ background-repeat: no-repeat;
+ background-position: left;
+ padding-left: 104px;
+ margin: 0 auto;
+ width: 400px;
+
+}
+
+span.glyphicon-arrow-left, span.glyphicon-arrow-right{
+  color: rgb(16,184,213);
+}
+nav.page-top{
+  border-bottom-color: rgb(232,209,76);
+}
+div#maps{
+  height: 400px;
+}
+p.description{
+  margin-top: 1.5em;
+}
+p.description{
+  padding: 1.5em;
+  background-image: url(white_wall);
+}
+p.description:first-letter{
+  font-size: 1.5em;
+  font-weight: bold;
+}
+button.map-resize, button.ad-close, button.catsub-close{
+  border-radius: 50%;
+  margin-bottom: 1em;
+}
+button.map-all{
+  margin-bottom: 1em;
+}
+
+div#mapcanvas,div#results,div#details,div#ad,div#suggestions, div#catsub{
+  margin-top: 1em;
+}
+
+div#ps-company a.map {
+  cursor: default;
+  color: grey;
+  background-color: #fff;
+  border: 1px solid grey;
+}
+
+div#ps-company a.btn-warning {
+  cursor: pointer;
+  border-color: #f0ad4e;
+}
+
+ul.pager.ps-company {
+  margin: 10px 0px;
+}
+
+a.btn-cancel{
+  line-height: 1;
+}
+
+button#apply, button#loginSubmit, button#resetPassword{
+  margin-bottom: 10px;
+}
+
+button#resetPassword{
+  color:#f0ad4e;
+}  
+
+div#formNewMemberAlert, div#formLoginAlert, div#formPersonalMemberAlert, 
+div#formFreeBusinessAlert,div.multiForm,div#formAddPayOption, 
+div#formProductServiceAlert,div#bannerAlert, div#formMapPictureAlert, 
+div#formKeywordsAlert, div#formhelpWantedAlert, 
+div#formResumeAlert,div#formForRentAlert,
+div#salesEventsAlert, div#formClassifiedAlert, div#deleteRequestAlert{
+  visibility: hidden;
+}
+
+div.form-errors{
+  margin-top: 15px;
+}
+
+form#memberListForm{
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+div#memberListButtons{
+  padding-bottom: 15px;
+}
+
+button.memlistbtn + button.memlistbtn{
+  margin-left: 10px;
+}
+
+button.memlistbtn{
+  margin-top: 5px;
+}
+
+a.add-list{
+  margin-left: 10px;
+}
+
+
+table#businesshours caption{
+  color: #000;
+  font-weight: bold;
+}
+
+div#payOptionsIcons{
+  margin-bottom: 10px;
+}
+
+a.payOptionEdit{
+  font-weight: normal;
+}
+
+a.payOptionEdit:hover, a.payOptionEdit:active, a.payOptionEdid:focus, a.payOptionEdit:visited{
+  text-decoration: none;
+}
+
+textarea.address.form-control.input-sm{
+  height: 100px;
+}
+
+button#btnMemberAccount{
+  border-style: none;
+}
+
+span.businessList{
+  font-weight: bold;
+  letter-spacing: 0.75px;
+}
+
+div.premiumBusinessSlider{
+  display: none;
+}
+
+form#update_pay_option div.radio{
+  margin-bottom: 20px;
+}
+
+p.pay_option_heading a.btn-cancel{
+  margin-left: 50px;
+}
+
+a#donePayOptions{
+  border: none;
+}
+
+img.banner{
+  margin-bottom: 10px;
+}
+
+button#upgrade_payoption{
+  margin-top: -5px;
+}
+
+hr.hr_product_service{
+  margin-bottom: 0;
+}
+
+ul#ul_product_service{
+  height: 600px;
+  overflow-y: scroll;
+  padding-bottom: 100px;
+  border: 1px solid #ccc;
+  border-radius: 5px; 
+}
+
+ul#ul_help_wanted{
+  height: 300px;
+  overflow-y: scroll;
+  padding-bottom: 60px;
+  border: 1px solid #ccc;
+  border-radius: 5px; }
+
+button#btnGetProductService, a.editRemoveAllProducts, a.editAddAllProduct, button#btnGetHelpWanted, a.deleteAllHelpWanted{
+  margin-bottom: 5px;
+  font-size: 14px;
+} 
+
+ul#ul_product_service div, ul#ul_help_wanted div{
+  display: inline-block;
+}
+
+
+
+li.ps_list{
+  padding: 2px 2px;
+}
+
+button.ps_list_dropdown, button.hw_list_dropdown{
+  width: 25px;
+  height: 36px;
+  margin-right: 3px;
+  padding: 0;
+}
+
+div.ps_name p, div.hw_name p{
+  width: 25em;
+  font-size: 11px;
+  margin: 0;
+  margin-left: 3px;
+}
+
+div.ps_name.on-sale{
+  border-right: 5px solid yellow;
+}
+
+div.ps_name.season{
+  border-left: 5px solid green;
+}
+
+a.editRemoveProduct, a.editHelpWanted, button.editRemoveProduct{
+  font-size: 12px;
+}
+
+button.editRemoveProduct{
+  padding: 3px 20px;
+}
+
+p.highlight{
+  background-color: #FCF8E8;
+} 
+
+img.img-product-edit:hover{
+  transform: scale(1.2);
+}
+
+h5.product-name{
+  min-height: 30px;
+}
+
+div#display-products h5.product-name, div.panel-body.display-products h5.product-name, div#seasonshopping h5.product-name, div#sales h5.product-name, div#newarrivals h5.product-name{
+  font-size: 14px;
+  margin-top: 0px;
+  margin-bottom: 10px;
+  text-align: center;
+  min-height: 30px;
+  max-height: 30px;
+  overflow: hidden;
+} 
+
+div#display-products p.product-description, div.panel-body.display-products p.product-description, div#seasonshopping p.product-description, div#sales p.product-description, div#newarrivals p.product-description {
+  font-size: 13px;
+  padding-left: 10px;
+  height: 4em;
+  margin-bottom: 11px;
+  overflow-y: auto;
+}
+
+div.panel-body.display-products p.product-description, {
+  font-size: 12px;
+  padding-left: 10px;
+  height: 3em;
+  margin-bottom: 11px;
+  overflow-y: auto;
+}
+
+div#display-products p.product-price, div.panel-body.display-products p.product-price, div#seasonshopping p.product-price, div#sales p.product-price, div#newarrivals p.product-price {
+  text-align: center;
+  min-height: 20px;
+  max-height: 20px;
+  overflow: hidden;
+}
+
+div#display-products span.onsale, div.panel-body.display-products span.onsale, div#sales span.onsale, div#newarrivals span.onsale{
+  background-color: yellow;
+  border-radius: 10px;
+}
+
+div#display-products p.product-company-name, div.panel-body.display-products p.product-company-name, div#seasonshopping p.product-company-name, div#sales p.product-company-name, div#newarrivals p.product-company-name {
+  width: 180px;
+  overflow: auto;
+  margin: 0px auto 10px auto;
+  padding: 5px;
+  text-align: center;
+  font-size: 14px;
+  font-weight: bold;
+  background-color: #FCF8E8; 
+}
+
+a.email-button{
+  cursor: default;
+}
+
+div#display-products span.product-status, div.panel-body.display-products span.product-status{
+  font-size: 13px;
+}
+
+div#display-products div.product-caption, div.panel-body.display-products div.product-caption, div#seasonshopping div.product-caption, div#sales div.product-caption, div#newarrivals div.product-caption{
+  padding-bottom: 5px;
+}
+
+div#display-products p.product-action, div.panel-body.display-products p.product-action, div#seasonshopping p.product-action, div#sales p.product-action, div#newarrivals p.product-action{
+  margin-bottom: 0;
+}
+
+div#display-products span.entities, div.panel-body.display-products span.entities, div#seasonshopping span.entities, div#sales span.entities, div#newarrivals span.entities{
+  font-size: 12px;
+  font-weight: normal;;
+}
+
+div#display-products p.display-image, div.panel-body.display-products p.display-image, div#seasonshopping p.display-image, div#sales p.display-image, div#newarrivals p.display-image {
+  margin: 0;
+  padding: 0;
+  min-height: 300px;
+  max-height: 300px;
+  overflow-y: auto; 
+}
+
+div#display-products div.product-thumbnail, div.panel-body.display-products div.product-thumbnail, div#seasonshopping div.product-thumbnail, div#sales div.product-thumbnail, div#newarrivals div.product-thumbnail{
+  height: 580px;
+}
+
+div.panel-body.display-products div.product-thumbnail {
+  height: 450px;
+}
+
+div#list-location button.shopping, div#list-location button.new_arrivals{
+  visibility: hidden;
+}
+
+div#list-location button.shopping.PB, div#list-location button.new_arrivals.PB{
+  visibility: visible;
+}
+
+div.panel-heading.category h4{
+  font-size: 14px; 
+  font-weight: normal;
+}
+
+div.panel-heading.subcategory h4{
+  font-size: 12px; 
+  font-weight: normal;
+  padding-left: 50px;  
+}
+
+.panel-default>.panel-heading span.badge.product-cnt{
+  background-color: #BBB;
+  font-size: 11px;
+} 
+
+div.panel-heading.subcategory{
+  padding-right: 50px;
+}
+
+h5#season{
+  height: 40px;
+  width: 300px;
+  font-size: 29px;
+  margin: 5px auto;
+  padding-top: 5px;
+  padding-left: 11px;
+  background-position: left;
+  background-repeat: no-repeat;
+  color: #AAA;
+}
+h5#season span{
+  font-size: 18px;
+}
+
+div.panel-heading.season-company, div.panel-heading.sales-events, 
+div.panel-heading.fr_panel, div.panel-heading.classified_panel, div.panel-heading.classified-ad, div#displayForRent div.panel-heading.forrent-ad,div.panel-heading.sales {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+div#seasonshopping h4 a, div.sales-events h4 a, div#for_rent h4 a, div#classifieds h4 a, div.classified-ad h4 a, div.forrent-ad h4 a, div.sales h4 a{
+  font-size: 14px;
+  color: #4582ec;
+}
+
+div.panel-heading.season-company h4.panel-title.company-name,{
+  font-size: 14px;
+  color: green;
+}
+
+.panel-default>.panel-heading span.badge.category-cnt, .panel-default>.panel-heading span.badge.salesevents-cntv, .panel-default>.panel-heading span.badge.sales-cnt{
+  font-size: 11px;
+  background-color: rgb(15, 116, 154);
+}
+
+div#divResumeHTML img.passport, span.resume_name {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+div#divResumeHTML span.user-input.placeholder, div#divResumeHTML dd.user-input.placeholder, div#divResumeHTML dt.user-input.placeholder, div#divResumeHTML blockquote.user-input.placeholder{
+  color: #ccc;
+  font-style: italic;
+}
+
+div#divResumeHTML a.addToResume{
+  margin-right: 10px;
+}
+
+div#divResumeHTML a.plus-minus{
+  color: #FFF;
+  font-size: 12px;
+}
+
+div#divResumeHTML blockquote.about-you, div#divResumeHTML dt, div#divResumeHTML dd, div#divResumeHTML h3, div#divResumeHTML label, div#divResumeHTML p.help-block, div#divResumeHTML input#freeResumePhoto{
+  font-size: 13px;
+}
+
+div#divResumeHTML blockquote{
+  border-left: 2px solid #f0ad4e;
+
+  font-size: 14px;
+}
+
+div#divResumeHTML dl{
+  margin-bottom: 5px;
+}
+
+div#divResumeHTML dl dt{
+  text-align: right;
+  width: 300px;
+}
+
+div#divResumeHTML dl dd{
+  margin-left: 320px;
+}
+
+div#resume h5{
+  margin-bottom: 0;
+}
+
+div#divResumeHTML h2{
+
+}
+
+div#divResumeHTML div.introduction{
+  border-bottom: 3px double #DDD;
+}
+
+div#divResumeHTML div.panel-default{
+  border: none;
+}
+
+div#divResumeHTML div.panel-heading{
+  background-color: #FFF;
+}
+
+div#divResumeHTML div.section div.panel-heading{
+  border-color: #FFF;
+}
+
+div#divResumeHTML dl.contact-info dt{
+  width: 70px;
+  text-align: left;
+}
+
+div#divResumeHTML dl.contact-info dd{
+  margin-left: 80px;
+  text-align: left;
+}
+
+div#helpWantedList div.job-title{
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+div#helpWantedList div.job-title h3{
+  font-size: 14px;
+}
+
+div#helpWantedList div.panel-body, div#helpWantedList div.panel-footer{
+  margin: 0;
+  padding: 0;
+}
+
+div#helpWantedList div.panel-body p.job-description{
+  margin: 0;
+  padding: 5px;
+  font-size: 12px;
+  max-height: 4em;
+  overflow: auto;
+}
+
+div#helpWantedList div.panel-footer{
+  padding: 5px;
+  padding-bottom: 10px;
+  font-size: 14px;
+} 
+
+div#helpWantedList div.panel-footer a.map{
+  margin-right: 10px;
+} 
+
+div#viewResumeSD img.passport, span.resume_name {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+div#viewResumeSD span.user-input.placeholder, div#viewResumeSD dd.user-input.placeholder, div#viewResumeSD dt.user-input.placeholder, div#viewResumeSD blockquote.user-input.placeholder{
+  color: #ccc;
+  font-style: italic;
+}
+
+div#viewResumeSD a.addToResume{
+  margin-right: 10px;
+}
+
+div#viewResumeSD a.plus-minus{
+  color: #FFF;
+  font-size: 12px;
+}
+
+div#viewResumeSD blockquote.about-you, div#viewResumeSD dt, div#viewResumeSD dd, div#viewResumeSD h3, div#viewResumeSD label, div#viewResumeSD p.help-block, div#viewResumeSD input#freeResumePhoto{
+  font-size: 13px;
+}
+
+div#viewResumeSD blockquote{
+  border-left: 2px solid #f0ad4e;
+  font-size: 14px;
+}
+
+div#viewResumeSD dl{
+  margin-bottom: 5px;
+}
+
+div#viewResumeSD dl dt{
+  text-align: right;
+  width: 300px;
+}
+
+div#viewResumeSD dl dd{
+  margin-left: 320px;
+}
+
+div#resume h5{
+  margin-bottom: 0;
+}
+
+div#viewResumeSD div.introduction{
+  border-bottom: 3px double #DDD;
+}
+
+div#viewResumeSD div.panel-default{
+  border: none;
+}
+
+div#viewResumeSD div.panel-heading{
+  background-color: #FFF;
+  padding: 5px;
+}
+
+div#viewResumeSD div.section div.panel-heading{
+  border-color: #FFF;
+}
+
+div#viewResumeSD dl.contact-info dt{
+  width: 70px;
+  text-align: left;
+}
+
+div#viewResumeSD dl.contact-info dd{
+  margin-left: 80px;
+  text-align: left;
+}
+
+div#viewResumeSD a.plus-minus{
+  display: none;
+}
+
+div#viewResumeSD h4.panel-title{
+  font-size: 14px;
+  color: #4582ec;;
+}
+
+div#viewResumeSD a.email-resume{
+  margin-right: 10px;
+  color: #f0ad4e;
+}
+
+div#viewResumeSD a.email-resume.sent{
+  color: #5F3E38;
+}
+
+label#invoice, label#amex{
+  display:none;
+}
+
+div#salesevents div.sales-events-details{
+  min-height: 310px;
+  max-height: 310px
+  margin-bottom: 10px;
+  margin-top: 10px;
+  border-bottom: 3px double #DDD; 
+}
+
+div#salesevents div.se-discription{
+    min-height: 180px;
+    overflow: auto;
+    max-height: 180px;
+}
+
+div#salesevents div.se-footer{
+  border-top: 1px solid #CCC;
+}
+
+div#salesevents img.se-image{
+  margin-bottom: 5px;
+}
+
+div#displayClassifieds div.panel-heading.classified h4, div#displayForRent div.panel-heading.forrent h4{
+  font-size: 14px;
+  text-align: center;
+}
+
+div#displayClassifieds div.panel-heading.classified p, div#displayForRent div.panel-heading.forrent p.price {
+  color: #f0ad4e;
+  text-align: center;
+  font-style: italic;
+}
+
+div#displayForRent div.panel-heading.forrent p.address{
+    text-align: center;
+  font-style: italic;  
+}
+
+div#displayClassifieds div.panel-body.classified-discription, div#displayForRent div.panel-body.forrent-discription{
+  height: 95px;
+  max-height: 95px;
+  overflow: auto;
+  border-bottom: 1px solid #CCC;
+}
+
+div#displayClassifieds div.panel-body.classified-discription p, div#displayForRent div.panel-body.forrent-discription p{
+  font-size: 14px;
+} 
+
+div#displayClassifieds div.carousel.slide, div#displayForRent div.carousel.slide{
+  margin-bottom: 5px;
+} 
+
+div#maps span.span-infowindow, div#maps a.a-infowindow{
+  display: block;
+  text-align: center;
+  margin-top: 10px;
+}
+
+div#maps img{
+  height: 150px;
+}
+
+ul#ul_product_service img.img-product-edit{
+  max-width: 30px;
+}
+
+div#the242help div.help-info{
+  display: none;
+}
+
+div#the242help div.help-text{
+  background-color: #fcf8e3;
+  color: #666;
+}
+
+div#the242help div.panel-heading, div#the242help li{
+  padding: 5px 15px;
+}
+
+div#the242help div.panel-heading h5{
+  color: #907146;
+  font-size: 15px;
+}
+
+div#the242help div.panel.panel-default{
+  margin-bottom: 5px;
+}
+
+div#helpfullinks h4.list-group-item-heading{
+  color: #4582ec;
+  text-decoration: underline;
+}
+
+img#imgwait {
+  visibility: hidden;
+}

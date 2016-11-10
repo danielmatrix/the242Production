@@ -1,0 +1,286 @@
+<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Welcome to the242</title>
+    <!-- Bootstrap -->
+    <link href="css/bootstrap_read.min.css" rel="stylesheet">
+    <!-- <link href="css/bootstrap.min.css" rel="stylesheet"> -->
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+    <link rel="shortcut icon" href="favicon.png">
+    
+ 
+    
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  
+<style>
+</style>
+
+
+<body>
+<nav class="navbar navbar-default navbar-fixed-top page-top" role="navigation">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button id="btn_menu" type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+     <!--  <a class="navbar-brand" href="#">Brand</a> -->
+      <form name="searchForm" id="searchForm" class="navbar-form" role="search" data-element="form">
+        <div class="form-group">
+          <div class="input-group">
+            <input type="text" input id="lookup" name="lookup" value="" autocomplete="off" class="form-control" placeholder="Search" data-element="searchInput">
+            <span class="input-group-addon "><a id="search_click" href="#" tabindex='-1' data-element="searchButton"><img src="images/search.png" width="24" height="22" alt="search"></a></span>
+          </div>  
+        </div>
+      </form>
+    </div>
+    
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li class="active">
+            <div id="searchtype" class="carousel slide" data-interval="">
+
+            <div id="searchCarousel" class="carousel-inner">
+               <script id="searchTypes" type="text/x-handlebars-template">
+                {{#each this}}
+                  <div class="item {{[1]}} searchtype  search text-center" data-searchtype="{{[2]}}">
+                    <span>{{[0]}}</span>
+                  </div>
+                {{/each}}
+              </script>
+            </div>
+            <a href="#searchtype" class="carousel-control left" data-slide="prev" tabindex="-1"><span class="glyphicon glyphicon-arrow-left text-primary"> </span></a>
+            <a href="#searchtype" class="carousel-control right" data-slide="next" tabindex="-1"><span class="glyphicon glyphicon-arrow-right  text-primary"> </span></a>
+          </div>
+        </li>         
+        
+        <li>
+          <div id="islands" class="carousel slide" data-interval="">
+
+            <div id="islandCarousel" class="carousel-inner">
+               <script id="searchIslands" type="text/x-handlebars-template">
+                {{#each this}}
+                  <div class="item {{[1]}} islandsearch island text-center" data-island="{{[2]}}">
+                    <span>{{[0]}}</span>
+                  </div>
+                {{/each}}
+              </script>              
+            </div>
+            <a href="#islands" class="island carousel-control left" data-slide="prev" tabindex="-1"><span class="glyphicon glyphicon-arrow-left  text-primary"> </span></a>
+            <a href="#islands" class="island carousel-control right" data-slide="next" tabindex="-1"><span class="glyphicon glyphicon-arrow-right  text-primary"> </span></a>
+          </div>  
+
+        </li>
+
+      </ul>
+
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#" tabindex="-1">Link</a></li>
+        <li class="dropdown">
+          <a tabindex="-1" href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Dropdown <span class="caret"></span></a>
+          <ul class="dropdown-menu" role="menu">
+            <li><a tabindex="-1" href="#">Action</a></li>
+            <li><a tabindex="-1" href="#">Another action</a></li>
+            <li><a tabindex="-1" href="#">Something else here</a></li>
+            <li class="divider"></li>
+            <li><a tabindex="-1" href="#">Separated link</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>   
+
+
+
+<div id="wrapper" class="container"> 
+       
+  <div class="row jumbotron-logo">    
+    <div class="jumbotron text-center">
+      <h1 class="brand"><img src="images/ship.png" class="img-responsive"></h1>  
+      <h1 class="brand" style="color:#000;)">t</h1>
+      <h1 class="brand" style="color:#000;">h</h1>
+      <h1 class="brand" style="color:#000;">e</h1>
+      <h1 class="brand" style="color:rgb(16,184,213);">2</h1>
+      <h1 class="brand" style="color:rgb(232,209,76);">4</h1>
+      <h1 class="brand" style="color:rgb(16,184,213);">2</h1>
+    </div>
+  </div>
+
+
+  <div id="list-suggestions" class="row">
+    <ul id="ul-list-suggestions" class="list-unstyled  list-group">
+      <script id="tmp_list_suggestions" type="text/x-handlebars-template">
+          {{#each this}}
+            <li class="list-group-item"><span class="badge badge-success">{{[1]}}</span><a href="{{[2]}}" data-element="aListSuggestion">{{[0]}} </a></li>
+          {{/each}}
+      </script>
+    </ul>
+  </div>
+
+  <div id="ps-suggestions" class="row">
+    <ul id="ul-ps-suggestions" class="list-unstyled  list-group">
+      <script id="tmp_ps_suggestions" type="text/x-handlebars-template">
+      {{#each this}}
+      <li class="list-group-item"><a href="#" data-element="aPsSuggestion">{{[0]}}</a></li>
+      {{/each}}
+      </script>
+    </ul>
+  </div>
+
+  <div id="bp-suggestions" class="row">
+    <ul id="ul-bp-suggestions" class="list-unstyled  list-group">
+      <script id="tmp_bp_suggestions" type="text/x-handlebars-template">
+      {{#each this}}
+      <li class="list-group-item"><a href="{{[0]}}" data-element="aBpSuggestion">{{[1]}}</a></li>
+      {{/each}}
+      </script>
+    </ul>
+  </div>
+ 
+
+
+
+  <div id="list-company" class="row">
+    <div class="table-responsive">
+      <table class="table table-hover table-condensed">
+        <tbody id="tbllistCompany">
+          <script id="tmp_listings" type="text/x-handlebars-template">
+            {{#each this}}
+              <tr>
+                <td><a href="tel:{{[2]}}" class="btn btn-primary btn-sm"><span class="glyphicon glyphicon-earphone"></span></a>&nbsp; &nbsp;<a href="{{[11]}}:{{[1]}}" class="btn {{#if [11]}}btn-warning{{/if}} btn-sm map" data-element="aCompListSingleMap" data-phone="{{[2]}}"><span class="glyphicon glyphicon-map-marker {{#if [11]}} text-danger {{/if}}"></span></a></td>
+                <td class="listing"><a href="{{[17]}}" data-element="aListCompany" tabindex="1">{{[1]}}</a>&nbsp; &nbsp;<a href="tel:1-242-{{[2]}}">{{[2]}}</a><br> {{#if [3]}}<span>{{[3]}} - </span>{{/if}}{{[4]}}</td>
+              </tr>
+            {{/each}}
+          </script>  
+        </tbody>
+      </table>
+      <p class="text-left pull-right"><button class="btn btn-info btn-sm results-back" data-element="btnBackCompList" tabindex="1"><span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span> back</button></p>
+    </div>     
+  </div>
+
+  <div id="ps-company" class="row">
+    <ul id="ul-ps-company" class="list-unstyled  list-group">
+      <script id="tmp_ps_company" type="text/x-handlebars-template">
+          {{#each this}}
+            <li class="list-group-item">
+            <a href="{{[0]}}:{{[5]}}" class="btn {{#if [5]}}btn-warning{{/if}} btn-xs map" tabindex="-1" data-element="aPSMap"><span class="glyphicon glyphicon-map-marker {{#if [5]}} text-danger {{/if}}"></span></a>&nbsp; &nbsp;
+            <span class="badge badge-success">{{[1]}}</span><a href="{{[2]}}" data-element="aPsCompany">{{[0]}} </a>
+            {{#if [3]}}<p>{{[3]}}</p>{{/if}}
+            </li>
+          {{/each}}
+      </script>
+    </ul>
+  </div>
+
+  <div id="bp_company" class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+  <div class="panel panel-default">
+    <div class="panel-heading" role="tab" id="headingOne">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+          Summary
+        </a>
+      </h4>
+    </div>
+    <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+      <div class="panel-body bp_summary">
+            
+      </div>
+    </div>
+  </div>
+  <div class="panel panel-default">
+    <div class="panel-heading" role="tab" id="headingTwo">
+      <h4 class="panel-title">
+        <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+          Details
+        </a>
+      </h4>
+    </div>
+    <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+      <div class="panel-body bp_details">
+
+      </div>
+    </div>
+  </div>
+</div>
+
+
+  
+  <div id="list-location" class="row">
+   <script id="tmp_list_location" type="text/x-handlebars-template">     
+   
+        <p class="text-left"><button class="btn btn-info btn-sm results-back" data-element="btnBackListLocation" tabindex="1"><span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span> back</button></p>
+        <h4>{{[1]}}</h4>
+        <p> 
+        <address>
+            <strong class="text-muted">{{#if [3]}}<span>{{[3]}} - </span>{{/if}} {{#if [6]}}<span>{{[6]}} - </span>{{/if}} {{[4]}}</strong>
+        </address>
+        </p>
+        {{#if [10]}}<div class="table-responsive hours">{{{[10]}}}</div>{{/if}}
+        <ul class="list-group">
+          <li class="list-group-item"><a href="tel:{{[2]}}" class="btn btn-primary btn-sm"><span class="glyphicon glyphicon-earphone"></span></a>&nbsp; &nbsp;<a href="tel:1-242-{{[2]}}"> 1-242-{{[2]}}</a></li>
+          {{#if [7]}}<li class="list-group-item"><a href="mail:{{[7]}}" class="btn btn-warning btn-sm"><span class="glyphicon glyphicon-envelope"></span></a> email: {{[7]}}</li> {{/if}}
+          {{#if [8]}}<li class="list-group-item"><a href="http://{{[8]}}" class="btn btn-info btn-sm" target= "_blank"><span class="glyphicon glyphicon-globe"></span></a> Website: {{[8]}}</li> {{/if}}
+          {{#if [12]}}<p class="text-justify description">{{[12]}}</p>{{/if}}
+        </ul>
+        <ul class="list-inline">
+          {{#if [11]}}<li><button class="btn btn-warning btn-sm details-map" data-latlng="{{[11]}}:{{[1]}}" data-element="btnLocationSingleMap" data-phone="{{[2]}}"><span class="glyphicon glyphicon-map-marker"></span> Map</button></li>{{/if}}
+          {{#if [9]}}<li><button class="btn btn-warning btn-sm details-ad" data-imgfile="{{[9]}}" data-element="addBtn" ><span class="glyphicon glyphicon-picture"></span> Ad</button></li>{{/if}}
+        </ul> 
+        <p class="text-left"><button class="btn btn-info btn-sm results-back" data-element="btnBackListLocation" tabindex="1"><span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span> back</button></p>
+  </script>    
+  </div>
+
+  <div id="ad">
+    <button id="closead" class="btn btn-default btn-sm ad-close" data-element="btnCloseAd"><span class="glyphicon glyphicon-remove text-muted"></span></button>
+    <div id="detailsad" class="details-ad row">
+    </div>
+  </div>
+
+  <div id="mapcanvas" class="row">
+    <button title="Increase" class="map-resize btn btn-default btn-sm" data-element="btnMapPlus" data-direction="plus"><span class="glyphicon glyphicon-plus text-success"></span></button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+    <button title="Decrease" class="map-resize btn btn-default btn-sm" data-element="btnMapSubtract" data-direction="substract"><span class="glyphicon glyphicon-minus text-danger"></span></button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+    <button title="Large Map" class="map-resize btn btn-default btn-sm hidden-xs" data-element="btnMapLarge" data-direction="large"><span class="glyphicon glyphicon-expand text-info"></span></button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <button title="Close" class="map-resize btn btn-default btn-sm" data-element="btnMapClose" data-direction="close"><span class="glyphicon glyphicon-remove text-muted"></span></button>
+    <div id="maps"></div>
+  </div>
+
+</div>
+
+
+         
+        
+
+  
+
+
+
+<script src="jquery/jquery-1.11.1.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/handlebars-v2.0.0.js"></script>
+<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBItoIRNxRj7XM7k5GG6QBVPX6-1XVUdjw"></script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-57610866-1', 'auto');
+  ga('send', 'pageview');
+</script>
+<script src="js/index.js">></script> 
+</body>
+</html>
